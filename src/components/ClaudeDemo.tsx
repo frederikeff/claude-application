@@ -25,7 +25,7 @@ interface UseCase {
         id: 'programming',
         title: 'Pair Programming',
         hasLinks: true,
-        description: 'Claude excels as a programming partner, helping me achieve multiple milestones:\n\n' + 
+        description: 'Claude excels as my programming partner, helping me achieve multiple tech products:\n\n' + 
           '• Built three complete websites: ' +
           '<a href="https://nytechventures.com" target="_blank" rel="noopener noreferrer" className="text-pink-700 hover:text-red-900 font-medium hover:underline">nytechventures.com</a>, ' +
           '<a href="https://www.wonderfabe.com/" target="_blank" rel="noopener noreferrer" className="text-pink-700 hover:text-red-900 font-medium hover:underline">wonderfabe.com</a>, and ' +
@@ -34,7 +34,7 @@ interface UseCase {
           '• Currently developing a custom CRM system with AI capabilities\n' +
           '• Learning programming concepts through detailed explanations and examples by Claude\n' +
           '• Mastering prompt engineering for optimal results',
-        example: 'Recent example: Claude helped me build this portfolio site as a non-programmer, handling both the technical implementation and design suggestions.'
+        example: 'Recent example: Claude helped me build this application site as a non-programmer, handling both the technical implementation and design suggestions.'
     },
     {
         id: 'visual-presentations',
@@ -69,8 +69,9 @@ interface UseCase {
           '• Analyzing complex problems from multiple angles\n' +
           '• Creating step-by-step guides for various processes\n' +
           '• Generating innovative solutions to business challenges\n' +
+          '• Creating full curriculums for i.e. B2B SaaS and Programming trainings with examples and hands-on tasks\n' +
           '• Supporting day-to-day decision making',
-        example: 'Recent use case: Developed a step-by-step guideline for a complex legal challenge with root legal document insights and strong logical reasoning that won me the case.'
+        example: 'Recent use case: Developed a step-by-step guideline for a complex legal challenge with core legal document insights and strong logical reasoning that won me the case.'
     }
   ];
 
@@ -81,7 +82,7 @@ interface UseCase {
           Hello Anthropic Team! 👋
         </h1>
         <p className="text-xl">
-          I am excited to show you how I leverage Claude in my daily work
+          I am excited to show you why I wanna work in your team
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mt-6">
@@ -168,27 +169,28 @@ interface UseCase {
         <TabsContent value="intro" className="mt-6">
           <Card>
             <CardHeader>
-              <CardTitle>Why I am Excited About Anthropic</CardTitle>
+              <CardTitle>First and foremost because I am excited about Claude</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="prose">
                 <p>
-                  As someone who has extensively used Claude for both personal and professional projects,
-                  I have experienced firsthand how it stands out from other AI assistants. What impresses
-                  me most are the capabilities of Claude:
+                Claude is my personal assistant in most of my tasks. It is the tool I use the most throughout my personal and professional projects and I deliberately switched from ChatGPT to Claude some months ago. Why? Because Claude stands out from other AI models for:
                 </p>
                 <ul className="list-disc pl-6 mt-4">
                   <li className="mb-2">
-                    Nuanced understanding and ability to maintain context through complex discussions
+                    Its capability of previewing what it produces and thus allowing for faster iterations and adaptations
                   </li>
                   <li className="mb-2">
-                    Exceptional coding abilities, especially in pair programming scenarios
+                    Its strong programming abilities - I am able to program apps without a technical background
                   </li>
                   <li className="mb-2">
-                    Amazing ability to create visual content via SVG-code creations
+                    Its SVG format designs that allow for many more use cases than the other AI assistants
+                  </li>
+                  <li className="mb-2">
+                    Its continuous improvements - longer chats, adapted iterations, memory capabilities
                   </li>
                   <li>
-                    Capability to break down complex problems into manageable steps
+                    Anthropics research towards new and advanced ways of how to use AI and solve challenges
                   </li>
                 </ul>
               </div>
@@ -250,7 +252,6 @@ interface UseCase {
 • Integrated YouTube embedding functionality
 • Deployed via Vercel for seamless hosting
 • Added basic metadata and favicons for various screen sizes
-• Code visible via GitHub, not perfect, but it does its job ;)
 
 Time to completion: ~5 hours of collaborative development`}
                   </pre>
@@ -263,28 +264,31 @@ Time to completion: ~5 hours of collaborative development`}
         <TabsContent value="vision" className="mt-6">
           <Card>
             <CardHeader>
-              <CardTitle>My Vision for Enterprise Success</CardTitle>
+              <CardTitle>My Vision for Working with you</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="prose">
                 <p>
-                  As an Enterprise Customer Success Manager at Anthropic, I want to contribute to establishing Claude as the leading enterprise AI model by:
+                As part of the team at Anthropic, I want to contribute to establishing Claude as the leading AI model by: 
                 </p>
                 <ul className="list-disc pl-6 mt-4">
                   <li className="mb-2">
-                    Helping enterprises identify and implement effective and strategically relevant use cases that bring unique value to their strategic priorities
+                    Showcasing the use cases and capabilities of Claude for Work and the Claude API in comparison to other AI models and tools
                   </li>
                   <li className="mb-2">
-                    Building deep technical and strategic understanding of customer needs and demonstrating how Claude and Anthropics API and solutions can address complex enterprise challenges
+                    Helping Enterprises to transform their businesses towards an AI-focused era and finding and implementing effective and strategically relevant solutions 
                   </li>
                   <li className="mb-2">
-                    Creating reusable solutions, processes and best practices that help enterprises maximize the value of their partnership with Anthropic
+                    Educating and inspiring the wider community of the capabilities of Claude and how they can benefit best
                   </li>
                   <li className="mb-2">
-                    Building effective bridges between technical, sales, data science, and success teams to ensure seamless delivery of enterprise solutions
+                    Making sure that AI is used in safe and secure ways and that it helps us to move towards utopia, not dystopia 
                   </li>
-                  <li>
-                    Fostering a thriving community of enterprise users who leverage Claudes capabilities to drive innovation and efficiency
+                  <li className="mb-2">
+                    Creating effective and efficient processes, frameworks and content to make the CSM and wider team as effective as possible
+                  </li>
+                  <li className="mb-2">
+                    Building bridges among cross-functional teams to achieve what we set out to achieve as one team while incorporating diverse and innovative perspectives
                   </li>
                 </ul>
               </div>
