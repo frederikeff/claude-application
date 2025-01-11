@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Claude Application - Enterprise Customer Success',
-  description: 'Showcase of Claude capabilities by Frederike Falke, Enterprise Customer Success Professional and Author',
+  title: 'Claude Application Frederike Falke',
+  description: 'Showcase of Claude capabilities and work vision by Frederike Falke',
   icons: {
     icon: [
       {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         type: 'image/x-icon',
       },
       {
-        url: '/web-app-manifest-192x192.png',
+        url: '/favicon-96x96.png',
         sizes: '192x192',
         type: 'image/png',
       },
@@ -46,7 +46,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
