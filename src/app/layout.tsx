@@ -17,35 +17,26 @@ export const metadata: Metadata = {
   description: 'Showcase of Claude capabilities and work vision by Frederike Falke',
   icons: {
     icon: [
-      {
-        url: '/favicon.ico',
-        sizes: '32x32',
-        type: 'image/x-icon',
-      },
-      {
-        url: '/favicon-96x96.png',
-        sizes: '96x96',
-        type: 'image/png',
-      },
-      {
-        url: '/web-app-manifest-192x192.png',  // Added manifest PNG
-        sizes: '192x192',
-        type: 'image/png',
-      },
-      {
-        url: '/web-app-manifest-512x512.png',  // Added larger manifest PNG
-        sizes: '512x512',
-        type: 'image/png',
-      },
-      {
-        url: '/apple-touch-icon.png',
-        sizes: '180x180',
-        type: 'image/png',
-      },
+      { url: '/images/favicon.ico' },
+      { url: '/images/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/images/web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png' },
     ],
-    shortcut: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    apple: [
+      { url: '/images/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: '/images/web-app-manifest-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
   },
+
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.frederikeforclaude.com',
+    siteName: 'Frederike for Claude',
+    title: 'Claude Application Frederike Falke',
+    description: 'Showcase of Claude capabilities and work vision by Frederike Falke',
+  }
 }
 
 export default function RootLayout({
