@@ -45,6 +45,7 @@ interface UseCase {
           '• Designing QBR presentations that highlight key metrics\n' +
           '• Developing client proposals with clear value propositions\n' +
           '• Creating SVG graphics for social media content\n' +
+          '• Creating full CVs in a visually programmed design\n' +
           '• Iterating on designs with specific feedback',
         example: 'Latest project: Created a full client Business Review and Sales presentation deck, refined over three iterations with Claude, fine-tuned in Figma and re-ordered in Canva.',
         videoId: 'SS4R5U6BiW0'
@@ -70,6 +71,7 @@ interface UseCase {
           '• Creating step-by-step guides for various processes\n' +
           '• Generating innovative solutions to business challenges\n' +
           '• Creating full curriculums for i.e. B2B SaaS and Programming trainings with examples and hands-on tasks\n' +
+          '• Troubleshooting a variety of issues and processes that are broken in one way or the other\n' +
           '• Supporting day-to-day decision making',
         example: 'Recent use case: Developed a step-by-step guideline for a complex legal challenge with core legal document insights and strong logical reasoning that won me the case.'
     }
