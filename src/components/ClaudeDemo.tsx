@@ -18,10 +18,9 @@ interface UseCase {
   }
   
   const ClaudeDemo: React.FC = () => {
-  const [activeDemo, setActiveDemo] = useState('intro');
 
   
-  const useCases = [
+  const useCases: UseCase[] = [
     {
         id: 'programming',
         title: 'Pair Programming',
