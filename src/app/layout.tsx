@@ -24,7 +24,17 @@ export const metadata: Metadata = {
       },
       {
         url: '/favicon-96x96.png',
+        sizes: '96x96',
+        type: 'image/png',
+      },
+      {
+        url: '/web-app-manifest-192x192.png',  // Added manifest PNG
         sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        url: '/web-app-manifest-512x512.png',  // Added larger manifest PNG
+        sizes: '512x512',
         type: 'image/png',
       },
       {
@@ -50,6 +60,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
