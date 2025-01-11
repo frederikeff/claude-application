@@ -109,7 +109,7 @@ interface UseCase {
           </a>
           
           <a 
-            href="https://drive.google.com/file/d/1o2omwEnTLF8qXM0-z6aZ1D9JNZSIGy81/view?usp=sharing"
+            href="https://drive.google.com/file/d/1aDN9ljRwIKpuD5_rv0pne7uzjBTGSSJc/view?usp=sharing"
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-base sm:text-sm md:text-base"
