@@ -22,6 +22,18 @@ interface UseCase {
   
   const useCases: UseCase[] = [
     {
+      id: 'walk-the-talk',
+      title: 'Second, because I walk the talk and use Claude consistently',
+      hasLinks: false,
+      description: 'I not only talk about what Claude can do, but I actively tested and executed many of its use cases:\n\n' + 
+        '• I programmed with Claude and can share how to setup the systems, troubleshoot and deploy projects\n' +
+        '• I solved legal challenges with Claude and know how to prompt Claude for Work effectively to get the right answers\n' +
+        '• I created numerous high-level pitch and client presentations and flyers who resulted in new projects\n' +
+        '• I use DeepSeek, ChatGPT, Gemini, Pi and various AI tools and thus can share how Claude stands out as well as how it can be improved\n\n' +
+        '-> Find more details below in how I use Claude for my daily work and how I can help clients too',
+      example: 'A fun story: My husband already calls Claude my boyfriend from time to time and asks me to ask Claude when he has a question.'
+    },
+    {
         id: 'programming',
         title: 'Pair Programming',
         hasLinks: true,
@@ -84,7 +96,7 @@ interface UseCase {
           Hello Anthropic Team! 👋
         </h1>
         <p className="text-xl">
-          I am excited to show you why I wanna work in your team
+          I am excited to show you how I create value for your team
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mt-6">
@@ -160,11 +172,11 @@ interface UseCase {
           </TabsTrigger>
           <TabsTrigger value="technical" className="flex items-center gap-2">
             <Code className="w-4 h-4" />
-            Technical Demo
+            Relevant Business Skills 
           </TabsTrigger>
           <TabsTrigger value="vision" className="flex items-center gap-2">
             <Target className="w-4 h-4" />
-            Vision
+            Vision for Working at Claude
           </TabsTrigger>
         </TabsList>
 
@@ -232,30 +244,34 @@ interface UseCase {
         <TabsContent value="technical" className="mt-6">
           <Card>
             <CardHeader>
-              <CardTitle>Live Technical Demonstration</CardTitle>
+              <CardTitle>Third, because of Valuable Business Skills</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="prose">
                 <p>
-                  Here is a live example of how I use Claude for technical tasks. This website
-                  was built collaboratively with Claude, demonstrating:
+                  I bring a wide range of skills and experiences with me, most notably strong Enterprise B2B SaaS Customer Success 
+                  and Sales Leadership experiences at Linkedin, Miro and Seismic
+                  and a mindset of life-long learning, strategic reasoning and hands-on, creative problem solving.  
                 </p>
                 <ul className="list-disc pl-6 mt-4">
-                  <li className="mb-2">React component architecture, Next.js</li>
-                  <li className="mb-2">Tailwind CSS styling</li>
-                  <li className="mb-2">Interactive UI elements</li>
-                  <li>State management</li>
+                  <li className="mb-2">Received Customer Delight Award at Linkedin</li>
+                  <li className="mb-2">Achieved client retention rates of 93%+ and successfully turned around 6-7-figure deals </li>
+                  <li className="mb-2">Helped 250+ clients in digital transformation and innovation projects</li>
+                  <li className="mb-2">Through my rich experiences: good at connecting dots, zooming in and out fast, finding solutions fast and effectively</li>
+                  <li>Plus: I love to solve problems, learn fast, am hands on and strategic, rational and emotional and love to work and acieve goals as a team!</li>
                 </ul>
                 <div className="mt-6">
-                  <h3 className="text-lg font-semibold mb-2">More details:</h3>
+                  <h3 className="text-lg font-semibold mb-2">Examples of my work: </h3>
                   <pre className="bg-gray-50 p-4 rounded-lg overflow-x-auto">
-                    {`• Implemented responsive design with mobile-first approach
-• Added interactive components using shadcn/ui 
-• Integrated YouTube embedding functionality
-• Deployed via Vercel for seamless hosting
-• Added basic metadata and favicons for various screen sizes
-
-Time to completion: ~5 hours of collaborative development`}
+                    {`• Helped a Fortune 500 food & beverage company rolling out Linkedin Sales Navigator globally to 1500 sellers
+• Trained a Fortune 500 manufacturing company how to do effective key acocunt management and achieved an NPS of 95+
+• Helped turn aorund a Banking client renewal from 0€ forecast and 10% product adoption to 110% renewal with a clear vision towards the future
+• Wrote a 300-page Enterprise Customer Success book and taught 50+ CSMs on how to effectively work with Enterprise clients
+• Managed teams of 5-10 people, including hiring, performance reviews and direct management responsibility - promoted 3 effectively 
+• I do not only do my job - I make sure that the companies I work for strive -
+  I was involved in a wide variety of initiatives to improve processes, drive new initiatives and support the culture of the team 
+  (Award-winning cross-functional Champion initiative, new asset resource availability across regions, updated Client Health Score, etc. )  `
+                    }
                   </pre>
                 </div>
               </div>
@@ -266,7 +282,7 @@ Time to completion: ~5 hours of collaborative development`}
         <TabsContent value="vision" className="mt-6">
           <Card>
             <CardHeader>
-              <CardTitle>My Vision for Working with you</CardTitle>
+              <CardTitle>My Vision for working as part of the Anthropic Team</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="prose">
