@@ -23,14 +23,14 @@ interface UseCase {
   const useCases: UseCase[] = [
     {
       id: 'walk-the-talk',
-      title: 'Second, because I walk the talk and use Claude consistently',
+      title: 'Second, because I am a power user of Claude for Work',
       hasLinks: false,
       description: 'I not only talk about what Claude can do, but I actively tested and executed many of its use cases:\n\n' + 
         '• I programmed with Claude and can share how to setup the systems, troubleshoot and deploy projects\n' +
-        '• I solved legal challenges with Claude and know how to prompt Claude for Work effectively to get the right answers\n' +
-        '• I created numerous high-level pitch and client presentations and flyers who resulted in new projects\n' +
+        '• I solved legal challenges with Claude and know how to prompt Claude effectively to get the right answers\n' +
+        '• I created numerous high-level pitch and client presentations who resulted in new projects\n' +
         '• I use DeepSeek, ChatGPT, Gemini, Pi and various AI tools and thus can share how Claude stands out as well as how it can be improved\n\n' +
-        '-> Find more details below in how I use Claude for my daily work and how I can help clients too',
+        '-> Find more details below in how I use Claude for my daily work and how I can help clients with my knowledge',
       example: 'A fun story: My husband already calls Claude my boyfriend from time to time and asks me to ask Claude when he has a question.'
     },
     {
@@ -172,11 +172,11 @@ interface UseCase {
           </TabsTrigger>
           <TabsTrigger value="technical" className="flex items-center gap-2">
             <Code className="w-4 h-4" />
-            Relevant Business Skills 
+            Business Skills 
           </TabsTrigger>
           <TabsTrigger value="vision" className="flex items-center gap-2">
             <Target className="w-4 h-4" />
-            Vision for Working at Claude
+            Vision
           </TabsTrigger>
         </TabsList>
 
@@ -257,8 +257,8 @@ interface UseCase {
                   <li className="mb-2">Received Customer Delight Award at Linkedin</li>
                   <li className="mb-2">Achieved client retention rates of 93%+ and successfully turned around 6-7-figure deals </li>
                   <li className="mb-2">Helped 250+ clients in digital transformation and innovation projects</li>
-                  <li className="mb-2">Through my rich experiences: good at connecting dots, zooming in and out fast, finding solutions fast and effectively</li>
-                  <li>Plus: I love to solve problems, learn fast, am hands on and strategic, rational and emotional and love to work and acieve goals as a team!</li>
+                  <li className="mb-2">Through my rich experiences: good at connecting dots, zooming in and out fast, finding solutions efficiently and effectively</li>
+                  <li>Plus: I love to solve problems, learn fast and work and achieve goals as part of a team!</li>
                 </ul>
                 <div className="mt-6">
                   <h3 className="text-lg font-semibold mb-2">Examples of my work: </h3>
